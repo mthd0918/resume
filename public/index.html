@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         html, body {
             height: 100%;
@@ -29,8 +29,27 @@
             text-decoration: underline;
         }
 
+        #about p {
+            line-height: 1.2;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card-header {
+            flex-grow: 1;
+            border-bottom: none;
+        }
+
+        .card-footer{
+            border-top: none;
+        }
     </style>
 </head>
+
 <body>
     <!-- ヘッダー -->
     <header class="bg-primary text-white py-3">
@@ -41,9 +60,8 @@
                 </div>
                 <div class="col-md-6">
                     <nav class="d-flex justify-content-md-end">
-                        <a href="#about" class="me-4">About Me</a>
-                        <a href="#works" class="me-4">Works</a>
-                        <a href="#contact">Contact</a>
+                        <a href="#about" class="mr-4">About Me</a>
+                        <a href="#works" class="mr-4">Projects</a>
                     </nav>
                 </div>
             </div>
@@ -54,16 +72,37 @@
         <div class="container py-3">
             <section id="about">
                 <h2>About</h2>
-                <p>アウトプットしたプロジェクトを載せるためのサイトとして作成しました。</p>
-                <p>GitHubアカウント: https://github.com/mthd0918/my-profile</p>
+                <p>現在コンピュータサイエンスを学習中です。学ぶ中でアウトプットとして作成したプロジェクトをこのサイトに載せています。</p>
             </section>
             <section id="works">
-                <h2>Works</h2>
-                <p>アウトプットしたプロジェクトを載せるためのサイトとして作成しました。</p>
+                <h2>Projects</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card-header">
+                                <h3>Video Processor Service</h3>
+                                <p>mp4形式のファイルを圧縮/アスペクト比の変更などが行えるプロジェクトです。</p>
+                                <p>キーワード: TCP通信, Ubuntu, Python</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-lg btn-primary mb-3">show more</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card-header">
+                                <h3>Tik-Tok-Toe</h3>
+                                <p>チームで開発したプロジェクトです。oxゲームができます。3x3, 9x9モードが遊べて、CPU対戦も可能です。</p>
+                                <p>キーワード: Git/GitHub, TypeScript, HTML, CSS</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-lg btn-primary mb-3">show more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
-
     <footer class="bg-primary text-white py-3 text">
         <div class="container text-center">
             <p>
@@ -71,5 +110,6 @@
             </p>
         </div>
     </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
