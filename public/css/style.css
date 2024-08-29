@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+#about p {
+    line-height: 1.2;
+}
+
+.card-header {
+    flex-grow: 1;
+    border-bottom: none;
+}
+
+.card-footer{
+    border-top: none;
+}
