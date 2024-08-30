@@ -1,5 +1,10 @@
 [
     {
+        "id": 0,
+        "title": "Static Web Server",
+        "summary": "Resume用のサイトです。Projectsをjsonデータで動的に表示しているため、jsonファイルを編集するだけでProjectを追加・削除することができます。"
+    },
+    {
         "id": 1,
         "title": "Video Processor Service",
         "summary": "mp4ファイルをアップロードすると、圧縮/アスペクト比の変更等の処理が行えるプログラムです。",

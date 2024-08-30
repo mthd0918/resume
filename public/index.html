@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,7 +19,7 @@
                 </div>
                 <div class="col-md-6">
                     <nav class="d-flex justify-content-md-end">
-                        <a href="#about" class="mr-4">About</a>
+                        <a href="#aboutMe" class="mr-4">About Me</a>
                         <a href="#works" class="mr-4">Projects</a>
                     </nav>
                 </div>
@@ -29,11 +30,29 @@
     <div class="content">
         <div class="container py-3">
             <section id="about">
-                <h2>About</h2>
-                <p>現在コンピュータサイエンスを学習中です。学ぶ中でアウトプットとして作成したプロジェクトをこのサイトに載せています。</p>
+                <div class="container">
+                    <h2 class="text-center">About Me</h2>
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center p-4">
+                            <div class="text-center">
+                                <img src="./media/B392B09E-9848-408C-B7C6-353E9133956D_1_102_o.jpeg" width="50" height="50" alt="Tune" class="mb-2 rounded-circle">
+                                <p class="mb-0">名前: Tune</p>
+                                <a href="https://github.com/mthd0918" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                                    <i class="bi bi-github"></i> GitHub
+                                </a>
+                                <a href="./media/サイト用職務経歴.pdf" download class="text-decoration-none">
+                                    <i class="bi bi-file-earmark-pdf"></i> 経歴書
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center align-items-center">
+                            <p class="mb-0 pb-4">初めまして！Tuneと申します。現在コンピューターサイエンスを学習中です。このサイトでは、学んだことのアウトプットをProjectsとして載せています。</p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="works">
-                <h2>Projects</h2>
+                <h2 class="text-center">Projects</h2>
                     <div class="project-cards">
                     </div>
             </section>
