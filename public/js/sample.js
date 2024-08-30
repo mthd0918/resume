@@ -1,26 +1,19 @@
-/* <div class="project-cards">
-    <div class="container d-flex justify-content-center flex-wrap text-center">
-        <div class="bg-light col-12 col-md-6 col-lg-3 p-4">
-            <h3>title</h3>
-            <p>summary</p>
-            <button class="btn btn-primary">show more</button>
-        </div>
-    </div>
-</div> */
-
 function createProjectCards() {
     fetch('../project.json')
         .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
             return response.json();
         })
         .then(data => {
             const projectCards = document.querySelector('.project-cards');
             const row = document.createElement('div');
-            row.className = 'row pb-2';
+            row.className = 'row g-4'; // g-4 adds gutters between columns
 
             data.forEach(project => {
                 const col = document.createElement('div');
-                col.className = 'col-12 col-md-6 col-lg-4 p-2';
+                col.className = 'col-12 col-md-6 col-lg-4'; // 1 column on small, 2 on medium, 3 on large screens
                 
                 const card = document.createElement('div');
                 card.className = 'card h-100'; // h-100 ensures all cards in a row have the same height
