@@ -2,7 +2,8 @@
     {
         "id": 0,
         "title": "Static Web Server",
-        "summary": "Resume用のサイトです。Projectsのjsonデータを動的に表示しているため、jsonファイルを編集するだけでProjectを追加・削除することができます。"
+        "summary": "Resume用のサイトです。Projectsのjsonデータを動的に表示しているため、jsonファイルを編集するだけでProjectを追加・削除することができます。",
+        "link": "https://github.com/mthd0918/my-website?tab=readme-ov-file"
     },
     {
         "id": 1,
