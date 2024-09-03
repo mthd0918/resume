@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Online Chat Messenger",
-        "summary": "TCP通信、UDO通信を学習するためのプロジェクト。クライアントはルームの作成を作成し、チャットができます。",
+        "summary": "TCP通信、UDP通信を学習するためのプロジェクト。クライアントはルームの作成を作成し、チャットができます。",
         "link": "https://github.com/mthd0918/online_chat_messenger_Recursion"
     },
     {
