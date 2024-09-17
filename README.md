@@ -1,5 +1,5 @@
 # My-Website
-学習の過程で作成したポートフォリオが見れるサイトです。
+学習の過程で作成したポートフォリオを載せているサイトです。
 
 ## URL
 https://my-website.domain-online.site/
