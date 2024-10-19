@@ -2,7 +2,7 @@
 学習の過程で作成したポートフォリオを載せているサイトです。
 
 ## URL
-https://my-website.domain-online.site/
+[https://my-website.domain-online.site/](https://resume.my-space.website/)
 
 ## 使用技術
 | カテゴリ | 使用技術 |
